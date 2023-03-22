@@ -1,0 +1,43 @@
+.sec_4{
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 250px;
+    background: #161616 url(../img/sec4.png) no-repeat bottom / 100%;
+}
+
+
+.sec4con_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_4_con4{
+    width: 32%;
+    height: 600px;
+    background-color: #161616;
+}
+
+.sec_4 .img_box{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.sec_4 .img_box img{
+    width: 130%;
+    height: auto;
+    transform: translateX(-70px);
+    opacity: 0.5;
+}
+
+.sec_4 .text_box{
+    width: 100%;
+    height:200px;
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

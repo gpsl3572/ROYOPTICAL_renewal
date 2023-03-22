@@ -1,0 +1,37 @@
+.sec_1{
+    width: 100vw;
+    height: 100vh;
+    background: #161616 url(../img/man-gaa4e0cfff_1920.jpg) no-repeat 300px / 100%;
+}
+
+
+.sec_1title{
+    padding: 45vh 0;
+}
+
+.sec_1title a{
+    color: #fff;
+    background-color: #fff;
+}
+
+.sec_1title h1{
+    font-size: 5.5em;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: -1px;
+}
+
+.sec_1title p{
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+
+
+
+
+
+
+

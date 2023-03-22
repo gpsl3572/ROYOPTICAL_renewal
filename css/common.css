@@ -1,0 +1,31 @@
+/* body{
+    font-family: 'Damion', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+} */
+
+body{
+    overflow-x: hidden;
+}
+
+
+.sec{
+    width: 100vw;
+    background-color: #161616;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+
+.title{
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3.4em;
+    font-weight: bold;
+}
+
+.title_center{
+    text-align: center;
+    margin-bottom: 100px;
+}

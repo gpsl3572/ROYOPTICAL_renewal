@@ -1,0 +1,41 @@
+.sec_3{
+    height: 100%;
+    padding-bottom: 150px;
+}
+
+/* display: grid;
+grid-template-columns: repeat(3, 1fr);
+column-gap: 30px;
+row-gap: 30px; */
+
+.sec3con_wrap{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 100px;
+}
+
+.sec_3_con3{
+   width: 100%;
+   overflow: hidden;
+}
+
+.sec_3_con3_2, .sec_3_con3_5, .sec_3_con3_8{
+    margin-top: 7em;
+}
+
+.sec_3_con3 .img_box{
+    width: 100%;
+}
+
+.sec_3_con3 .img_box img{
+    width: 100%;
+}
+
+.sec_3_con3 p{
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.3em;
+}
