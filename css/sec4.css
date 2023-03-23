@@ -41,3 +41,12 @@
     justify-content: center;
     align-items: center;
 }
+
+.sec_4_con4 .img_box_2 img{
+    filter: grayscale(100);
+}
+.sec_4_con4 .img_box_3 img{
+    transform: scale(1.7);
+    margin: 100px 0 70px 0;
+}
+

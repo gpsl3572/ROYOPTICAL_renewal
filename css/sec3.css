@@ -21,6 +21,7 @@ row-gap: 30px; */
    width: 100%;
    overflow: hidden;
    opacity: 0.92;
+ 
 }
 
 .sec_3_con3_2, .sec_3_con3_5, .sec_3_con3_8{
@@ -29,15 +30,39 @@ row-gap: 30px; */
 
 .sec_3_con3 .img_box{
     width: 100%;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.sec_3_con3_2 .img_box{
+    opacity: 0.87;
+}
+
+.sec_3_con3_5 .img_box, .sec_3_con3_8 .img_box,
+.sec_3_con3_9 .img_box{
+    opacity: 0.83;
 }
 
 .sec_3_con3 .img_box img{
     width: 100%;
 }
 
+
+
 .sec_3_con3 p{
     margin-top: 20px;
     color: #fff;
     font-weight: 300;
     font-size: 1.4em;
+}
+
+.sec_3_con3 .text_box{
+    background-color: rgb(16, 16, 16, 0);
+    padding-top: 50%;
+}
+
+.sec_3_con3:hover .img_box img{
+    transform: scale(1.05);
+    transition: 1s;
 }

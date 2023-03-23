@@ -13,7 +13,7 @@ body{
 .sec{
     width: 100vw;
     background-color: #161616;
-    padding: 0 150px;
+    padding: 100px 150px;
     box-sizing: border-box;
 }
 
@@ -23,9 +23,69 @@ body{
     font-family: 'Exo 2', sans-serif;
     font-size: 3.4em;
     font-weight: bold;
+    cursor: default;
 }
 
 .title_center{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+}
+
+.con_hover .text_box{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16, 16, 16, 0);
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.plus{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transition: 0.3s;
+    opacity: 0;
+   }
+
+.w{
+    background-color: #fff;
+    width: 100%; height: 6px;
+    position: absolute;
+    top: 50%; left: 0;
+    transform: translateY(-50%);
+}
+.h{
+    background-color: #ffffff;
+    width: 6px; height: 100%;
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+}
+
+.p_hover{
+    margin-top: 30px;
+    font-size: 32px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+.con_hover:hover .plus{
+    transform: rotateZ(90deg);
+    opacity: 1;
+}
+
+.con_hover:hover .text_box{
+    background-color: rgb(16, 16, 16, 0.8);
+
+}
+
+.con_hover:hover .text_box p{
+    opacity: 1;
 }

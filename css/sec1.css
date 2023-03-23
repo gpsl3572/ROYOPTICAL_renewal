@@ -6,12 +6,9 @@
 
 
 .sec_1title{
-    padding: 45vh 0;
-}
-
-.sec_1title a{
+    padding: 31vh 0;
     color: #fff;
-    background-color: #fff;
+    cursor: default;
 }
 
 .sec_1title h1{

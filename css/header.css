@@ -37,12 +37,18 @@ header .menu li{
     margin-right: 3rem;
     font-size: 1.1em;
     font-weight: 600;
+    transition: 0.3s;
+}
+
+header .menu li:hover{
+   color: rgb(187, 187, 187);
 }
 
 /* sns */
 
 header .sns{
     display: flex;
+   
 }
 
 header .sns li{
