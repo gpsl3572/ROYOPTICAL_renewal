@@ -14,7 +14,6 @@
 .sec_4_con4{
     width: 32%;
     height: 600px;
- 
 }
 
 .sec_4 .img_box{
@@ -24,9 +23,7 @@
 }
 
 .sec_4 .img_box img{
-    width: 130%;
-    height: auto;
-    transform: translateX(-70px);
+    object-fit: cover;
     opacity: 0.9;
     transition: 1.5s;
 }
@@ -45,6 +42,7 @@
 }
 
 .sec_4_con4 .img_box_2 img{
+    transform: scale(1.1);
     filter: grayscale(100);
 }
 .sec_4_con4 .img_box_3 img{
